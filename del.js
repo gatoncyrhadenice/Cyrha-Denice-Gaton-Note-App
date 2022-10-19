@@ -1,5 +1,5 @@
 const fs = require ('fs')
-//const {stringify} = require('qeurystring')
+
 
 const del= function(id, oldNote) {
     const note =JSON.parse(oldNote)
